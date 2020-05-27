@@ -31,9 +31,10 @@ github_username:  rajavundela
 
 permalink: /blog/:year/:month/:day/:title/
 # Build settings
-theme: minimal-mistakes-jekyll
-# plugins:
-#   - jekyll-feed
+remote_theme: "mmistakes/minimal-mistakes@4.19.2"
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
