@@ -19,15 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Raja Vundela
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: rajavundela
-github_username:  rajavundela
+url: "https:rajarv.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: /blog/:year/:month/:day/:title/
 # Build settings
@@ -64,8 +57,57 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
       related: true
+
+# author (basically site owner here) if there are multiple authors create _data/authors.yml file
+# /_data/authors.yml
+author:
+  name        : "Raja R. Vundela"
+  bio         : "I'm a developer."
+  avatar      : "/assets/images/raja.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:rajavundela1043@gamil.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "http://rajarv.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/rajavundela"
+
+# To enable site wide search
+search: true
+
+# disqus comments
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "rajarv"
+
+# setting repository
+repository: "rajavundela/rajavundela.github.io"
+
+# The default is the local time zone, as set by your operating system. changing to UTC
+timezone: Etc/UTC
+
+# describes site, used to improve seo
+description: "Web Development and Tech Blogs"
+
+masthead_title: "{ Raja Vundela }"
+
+# These are used to dipplay tags and categories
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# pagination
+# paginate: 1 # amount of posts to show
+# paginate_path: blog/page:num/ # pagination for /blog/index
