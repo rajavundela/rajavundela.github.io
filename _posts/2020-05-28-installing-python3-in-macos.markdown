@@ -1,7 +1,7 @@
 ---
 title:  "Installing Python3 in macOS [Dummy]"
 date:   2020-05-28
-tags: ["python3", "installation"]
+tags: ["#python3", "#installation"]
 ---
 Starting from Mac Os Catalina, Python2 & Python3 is installed by default in macos. You can check by entering `python3 --version` command in Terminal.
 

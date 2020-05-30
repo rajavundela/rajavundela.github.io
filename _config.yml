@@ -70,12 +70,12 @@ author:
   bio         : "I'm a developer."
   avatar      : "/assets/images/raja.jpg"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:rajavundela1043@gamil.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rajavundela"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/rajarvundela/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/rajavundela"
@@ -111,3 +111,19 @@ tag_archive:
 # pagination
 # paginate: 1 # amount of posts to show
 # paginate_path: blog/page:num/ # pagination for /blog/index
+
+# Footer links
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:rajavundela1043@gamil.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/rajavundela"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/rajarvundela/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/rajavundela"
