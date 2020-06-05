@@ -6,5 +6,5 @@ layout: home
 author_profile: true
 ---
 
-A short intro about you goes here.  
-Then link to [Portfolio](/about).
+Hi, welcome to my Blog. I write Computer Science related articles here.
+[About me.](/about)

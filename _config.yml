@@ -22,7 +22,7 @@ title: Raja Vundela
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rajarv.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-permalink: /blog/:year/:month/:day/:title/
+permalink: /:year/:month/:title/
 # Build settings
 theme: minimal-mistakes-jekyll
 plugins:
@@ -67,7 +67,7 @@ defaults:
 # /_data/authors.yml
 author:
   name        : "Raja R. Vundela"
-  bio         : "I'm a developer."
+  bio         : "Software developer."
   avatar      : "/assets/images/raja.jpg"
   links:
     - label: "GitHub"

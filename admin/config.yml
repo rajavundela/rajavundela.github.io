@@ -3,7 +3,9 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-media_folder: 'assets/uploads'
+media_folder: 'assets/images/uploads'
+site_url: https://rajarv.com
+publish_mode: editorial_workflow
 collections:
   - name: "post" # Used in routes, e.g. /admin/collections/blog
     label: "Post" # Used in the UI
