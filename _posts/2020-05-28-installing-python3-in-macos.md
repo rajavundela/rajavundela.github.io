@@ -1,61 +1,31 @@
 ---
-title: Installing Python3 in macOS [Dummy]
+title: Installing Python3 in macOS
 date: 2020-05-28T00:00:00.000Z
-last_modified_at: 2020-06-05T07:41:42.908Z
+last_modified_at: 2020-06-11T11:20:20.969Z
 tags:
-  - "#python3"
-  - "#installation"
+  - "#Python3"
+  - "#Installation"
 ---
-Starting from Mac Os Catalina, Python2 & Python3 is installed by default in macos. You can check by entering `python3 --version` command in Terminal.
+Starting from macOS Catalina, Python2 & Python3 is installed by default in macOS.You can check by entering `python3 --version` command in Terminal.
 
-![woman in pink tank top and blue denim jeans standing near window](https://images.unsplash.com/photo-1588417722655-5dc464048a97?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjkwODQwfQ)
+![This image shows python3 version](/assets/images/uploads/2020-05-28-0.png)
 
-Now Enter `python2 --version` to see version.
+Now Enter `python2 --version`  or `python --version` to check if python2 was installed. Remember entering just `python` defaults to python2.
 
-![man sitting on ground beside parked silver cruiser motorcycle](https://images.unsplash.com/photo-1558981852-426c6c22a060?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjkwODQwfQ)
+![This image shows python2 version](/assets/images/uploads/2020-05-28-1.png)
 
-## Installing pip
+## [](https://pip.pypa.io/en/stable/)Pip
 
-But there's no pip installed by default. You need to install pip by downloading and running get-pip.py.
+[Pip](https://pip.pypa.io/en/stable/) also called as Pypi is a package manager for python. For installing new packages and to update existing packages for our projects, we need pip.
+
+### Download pip
+
+But there's no pip installed by default. We have to install pip by downloading and running python file get-pip.py.
 
 * Download [get-pip.py](https://bootstrap.pypa.io/get-pip.py) file.
-* Go to the directory where get-pip.py file exists and execute file by entering `python3 get-pip.py`.
-* You can check installation by entering `pip --version`.
+* Go to the directory where get-pip.py file exists and execute file by entering `python3 get-pip.py`
+* You can check installation by entering `pip --version`
 
-> Note: Open new terminal window to check pip installation.
+> Note: Open new terminal window to check pip installation so that environment variables take in effect.
 
-Yay! You've now configured how to start with python. 
-
-- - -
-
-## Printing Fibonacci series
-
-Let's see how we can print *fibonacci series* using java.
-
-```java
-public class Fibonacci {
-
-    public static void main(String[] args) {
-
-        int n = 10, t1 = 0, t2 = 1;
-        System.out.print("First " + n + " terms: ");
-
-        for (int i = 1; i <= n; ++i)
-        {
-            System.out.print(t1 + " + ");
-
-            int sum = t1 + t2;
-            t1 = t2;
-            t2 = sum;
-        }
-    }
-}
-```
-
-It produces the following output
-
-```
-0 + 1 + 1 + 2 + 3 + 5 + 8 + 13 + 21 + 34 +
-```
-
-<p>I will display &#128533;</p>
+Yay! You've now configured how to start with python.
