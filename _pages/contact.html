@@ -1,0 +1,21 @@
+---
+layout: single
+title: Contact
+permalink: /contact
+author_profile: true
+---
+
+<p style="color: red;"><small>* All fields required</small></p>
+<form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+  <label for="name">Name</label><br>
+  <input type="text" id="name" name="name" placeholder="Enter Name" required><br>
+
+  <label for="email">Email</label><br>
+  <input type="email" id="email" name="email" placeholder="Enter Email" required><br>
+
+  <label for="message">Message</label><br>
+  <textarea id="message" name="message" cols="40" rows="10" required placeholder="Enter Message"></textarea>
+  
+  <div data-netlify-recaptcha="true"></div>
+  <input type="submit" value="Submit">
+</form>

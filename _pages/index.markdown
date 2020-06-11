@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: "Raja's Tech Blog"
 layout: home
+permalink: /
 author_profile: true
 ---
 

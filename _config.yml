@@ -128,6 +128,9 @@ footer:
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/rajavundela"
 
+# Adding _pages directory
+include: ["_pages"]
+
 # custom scripts for netlify cms identity
 head_scripts:
   - https://identity.netlify.com/v1/netlify-identity-widget.js

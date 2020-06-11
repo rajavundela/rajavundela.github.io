@@ -1,7 +1,7 @@
 ---
 layout: single
 title: About Me
-permalink: /about/
+permalink: /about
 author_profile: true
 ---
 This is my résumé. <a download href="/assets/files/resume.pdf">Download [pdf]</a><br>
