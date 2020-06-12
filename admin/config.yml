@@ -10,6 +10,7 @@ collections:
   - name: "post" # Used in routes, e.g. /admin/collections/blog
     label: "Post" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
+    preview_path: {{year}}/{{month}}/{{title}} # it is equivalent to live site
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     editor:

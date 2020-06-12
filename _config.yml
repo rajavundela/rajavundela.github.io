@@ -62,6 +62,7 @@ defaults:
       comments: true
       share: true
       related: true
+      toc: true # table of contents
 
 # author (basically site owner here) if there are multiple authors create _data/authors.yml file
 # /_data/authors.yml
@@ -109,8 +110,8 @@ tag_archive:
   path: /tags/
 
 # pagination
-# paginate: 1 # amount of posts to show
-# paginate_path: blog/page:num/ # pagination for /blog/index
+paginate: 5 # amount of posts to show in home page (by default /index.html)
+# paginate_path: blog/page:num/ # pagination for /blog/index (other locations)
 
 # Footer links
 footer:
