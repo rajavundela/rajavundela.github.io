@@ -59,7 +59,6 @@ defaults:
       layout: single
       author_profile: false
       read_time: true
-      comments: true
       share: true
       related: true
       toc: true # table of contents
@@ -91,7 +90,7 @@ comments:
     shortname: "rajarv"
 
 # setting repository
-repository: "rajavundela/rajavundela.github.io"
+repository: "rajavundela/rajarv-blog"
 
 # The default is the local time zone, as set by your operating system. changing to UTC
 timezone: Etc/UTC
@@ -118,7 +117,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:rajavundela1043@gamil.com"
+      url: "mailto:me@rajarv.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rajavundela"

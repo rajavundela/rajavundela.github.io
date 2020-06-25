@@ -5,6 +5,11 @@ permalink: /contact
 author_profile: true
 ---
 
+<style>
+  .text-muted{
+    opacity: 0.5;
+  }
+</style>
 
 <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
   <p style="color: red;"><small>* All fields are required.</small></p>
@@ -12,7 +17,8 @@ author_profile: true
   <input type="text" id="name" name="name" placeholder="Enter Name" required><br>
 
   <label for="email">Email</label><br>
-  <input type="email" id="email" name="email" placeholder="Enter Email" required><br>
+  <input type="email" id="email" name="email" placeholder="Enter Email" aria-describedby="emailHelp" required><br>
+  <small id="emailHelp" class="text-muted">No spam. I'll never share your email with anyone else.</small>
 
   <label for="message">Message</label><br>
   <textarea id="message" name="message" cols="40" rows="10" required placeholder="Enter Message"></textarea>

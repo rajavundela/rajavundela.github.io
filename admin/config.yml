@@ -24,8 +24,9 @@ collections:
       Do not change Publish Date for published posts while updating.
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: 'Publish Date', name: 'date', widget: 'datetime', dateFormat: "YYYY-MM-DD", timeFormat: "HH:mm", format: 'YYYY-MM-DD HH:mm' }
-      - { label: "Update Date", name: 'last_modified_at', widget: 'datetime', dateFormat: "YYYY-MM-DD", timeFormat: "HH:mm", format: 'YYYY-MM-DD HH:mm' }
+      - {label: 'Publish Date', name: 'date', widget: 'datetime', dateFormat: "YYYY-MM-DD", timeFormat: "HH:mm", pickerUtc: true, format: 'YYYY-MM-DD HH:mm' }
+      - { label: "Update Date", name: 'last_modified_at', widget: 'datetime', dateFormat: "YYYY-MM-DD", timeFormat: "HH:mm", pickerUtc: true, format: 'YYYY-MM-DD HH:mm' }
       - { label: "Tags", name: 'tags', widget: 'list' }
       - { label: "Categories", name: 'categories', widget: 'list', required: false}
+      - { label: "Comments", name: 'comments', widget: "boolean", default: true}
       - {label: "Body", name: "body", widget: "markdown", hint: 'Main content goes here.'}
