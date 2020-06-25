@@ -28,5 +28,5 @@ collections:
       - { label: "Update Date", name: 'last_modified_at', widget: 'datetime', dateFormat: "YYYY-MM-DD", timeFormat: "HH:mm"}
       - { label: "Tags", name: 'tags', widget: 'list' }
       - { label: "Categories", name: 'categories', widget: 'list', required: false}
-      - { label: "Turn Off Comments", name: 'comments', widget: "boolean", default: true}
+      - { label: "Comments Toggle", name: 'comments', widget: "boolean", default: true}
       - {label: "Body", name: "body", widget: "markdown", hint: 'Main content goes here.'}
