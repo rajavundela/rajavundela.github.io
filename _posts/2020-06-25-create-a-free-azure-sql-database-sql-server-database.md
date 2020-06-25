@@ -4,7 +4,7 @@ date: 2020-06-25T17:03:38.866Z
 last_modified_at: 2020-06-25T17:03:44.906Z
 tags:
   - "# Azure"
-comments: true
+comments: false
 ---
 In this post, we go through how to create a free Azure SQL Database.
 
