@@ -1,5 +1,5 @@
 ---
-title: Create a Free Azure SQL Database (SQL Server Database)
+title: Creating a Free Azure SQL Database (SQL Server Database)
 date: 2020-06-25T17:03:38.866Z
 last_modified_at: 2020-06-27T14:51:00.898Z
 tags:
