@@ -1,7 +1,7 @@
 ---
 title: Creating a Free Azure SQL Database (SQL Server Database)
 date: 2020-06-25T17:03:38.866Z
-last_modified_at: 2020-06-27T14:51:00.898Z
+last_modified_at: 2020-06-28T06:21:15.927Z
 tags:
   - "# Azure"
 comments: true
@@ -16,8 +16,6 @@ There is a little workaround here. We have to create a combo of **Web App + SQL*
 
 ## Steps to create free database:
 
-**step 1:**
-
 1. Go to [Azure Portal](https://portal.azure.com/) and click on **create a resource** icon. Search for `Web App + SQL`.
 
    ![Web App + SQL](/assets/images/uploads/2020-06-25-search-database.png)
@@ -25,21 +23,51 @@ There is a little workaround here. We have to create a combo of **Web App + SQL*
    Click on create button to create **Web App + SQL** resource.
 
    ![create Web App + SQL](/assets/images/uploads/2020-06-25-create.png)
-
-
 2. In **Web App + SQL create** Page, fill all the data that is required.
 
    If you click on `SQL Database` you can create a new database or select existing databases. In our case we create a new database. Before creating database configure `Target Server` settings for database.
 
-
+   click on `SQL Database`
 
    ![Web App + SQL data entry](/assets/images/uploads/2020-06-25-data-entry-database.png)
+
+   select `create a new database`
+
+   ![create a new database](/assets/images/uploads/2020-06-25-create-database.png)
+
+   Enter database name and select `Target Server`.
+
+   ![select target server](/assets/images/uploads/2020-06-25-sql-database.png)
+
+   Enter new server details and click select.
+
+   ![new server details](/assets/images/uploads/2020-06-25-new-server.png)
+
+   Now change Pricing tier. click on Pricing tier.
+
+   ![select pricing tier](/assets/images/uploads/2020-06-25-at-11.09.57-am-compressor.png)
+
+   click on `Looking for basic, standard, premium` tab.
+
+   ![basic, standard, premium tab](/assets/images/uploads/2020-06-25-at-11.10.15-am-compressor.png)
+
+   click on free tab and apply.
+
+   ![free tab](/assets/images/uploads/2020-06-25-at-11.10.40-am-compressor.png)
+
+   Now click on apply in `SQL Database` page.
+
+   ![SQL database](/assets/images/uploads/2020-06-25-at-11.14.41-am-compressor.png)
+
+   Create a free App Service Plan for web app. It would be better if you create web app and database in same location. And press `Create` button.
+
+   ![create web app +SQL](/assets/images/uploads/2020-06-25-create-webapp-sql.png)
 
 
 
 ## Limitations of free database
 
-The maximum size of database is **32 MB of shared storage and 5 DTUs .**
+The maximum size of database is **32 MB of shared storage** and compute is 5** [Database Transaction Units (DTUs)](https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tiers-dtu).**
 
 This database is a trial for one year and after a year it gets upgraded to **Basic** tier.
 
