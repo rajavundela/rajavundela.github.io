@@ -1,4 +1,4 @@
-<!-- <head> tag of html page. Adding favicon -->
+<!-- <head> tag of html page. Adding favicon and Google Analytics-->
 <meta charset="utf-8">
 
 {% include seo.html %}
@@ -40,3 +40,13 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172504205-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-172504205-1');
+</script>
