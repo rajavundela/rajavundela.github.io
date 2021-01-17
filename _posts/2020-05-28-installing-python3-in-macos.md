@@ -4,7 +4,6 @@ date: 2020-05-28T00:00:00.000Z
 last_modified_at: 2020-06-11T11:20:20.969Z
 tags:
   - "#Python3"
-  - "#Installation"
 comments: true
 ---
 ## Checking Python Installation

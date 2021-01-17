@@ -66,7 +66,7 @@ defaults:
 # author (basically site owner here) if there are multiple authors create _data/authors.yml file
 # /_data/authors.yml
 author:
-  name        : "Raja R Vundela"
+  name        : "Raja Vundela"
   bio         : "Software developer."
   avatar      : "/assets/images/raja.jpg"
   links:
